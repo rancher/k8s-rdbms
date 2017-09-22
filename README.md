@@ -39,7 +39,7 @@ ALTER TABLE `key_value`
   ADD KEY `idx_key_value__ttl` (`ttl`);
 ```
 
-2. [Download](https://github.com/rancher/k8s-sql/releases/download/v0.0.1/kube-apiserver.xz)  this custom patched Kubernetes API Server 1.7.4 server [[Source]](https://github.com/rancher/kubernetes/releases/tag/v1.7.6-netes1)
+2. [Download](https://github.com/rancher/k8s-sql/releases/download/v0.0.1/kube-apiserver.xz)  this custom patched Kubernetes API Server 1.7.4 server [[Source]](https://github.com/rancher/kubernetes/releases/tag/v1.7.4-rancher1)
 
 3. Run with your usual args but add the additional arguments
 
